@@ -72,3 +72,27 @@
     }
 
 
+    /* Moblile M 375px */
+@media (max-width: 375px) {
+        nav {
+            height: 20px;
+            overflow: hidden;
+            padding: 0px;
+            align-items: center;
+        }
+
+        .left-nav {
+            border: 1px solid pink;
+            padding-left: 10px;
+        }
+        .left-nav button {
+            display: none;
+        }
+
+
+        .right-nav {
+            display: none;
+        }
+
+}
+
