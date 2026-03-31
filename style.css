@@ -96,3 +96,22 @@
 
 }
 
+    /* Mobile L 425px */
+    @media (max-width: 425px) {
+        nav {
+            height: auto;
+            min-height: 10vh;
+        }
+
+        /* overflow: hidden; */
+        .left-nav button {
+            display: none;
+        }
+
+
+        .right-nav button {
+            display: none
+        }
+
+
+    }
