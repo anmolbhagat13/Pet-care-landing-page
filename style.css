@@ -1,0 +1,74 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav {
+        height: auto;
+        min-height: 7vh;
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+    }
+
+    .left-nav {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-left: 50px;
+    }
+
+    .logo {
+        align-items: center;
+        display: flex;
+        font-size: 1.2rem;
+        font-family: Playfair Display,serif;
+        font-weight: bold;
+        gap: 5px;
+    }
+
+    .logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .left-nav button {
+        font-size: 1rem;
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .left-nav button:hover {
+        color: orange;
+    }
+
+
+    .right-nav {
+        display: flex;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    .right-nav button {
+        font-size: 1rem;
+        height: 45px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .right-nav button:hover {
+        color: white;
+        background-color: black;
+    }
+
+
