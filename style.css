@@ -7,7 +7,7 @@
 
     html,
     body {
-        width: 100vw;
+        width: 100%;
         margin: 0px;
         padding: 0px;
     }
@@ -74,6 +74,7 @@
     }
 
     .right-nav button:hover {
+        transition: 1s;
         color: white;
         background-color: black;
     }
@@ -118,6 +119,7 @@
     }
 
     .main-img button:hover {
+        transition: 1s;
         color: white;
         background-color: black;
     }
@@ -163,59 +165,82 @@
         height: 60vh;
         width: 25vw;
         text-align: center;
-        background-image: url("box1.png");
-        background-size: 90%;
-        background-position: 50% 10%;
-        background-repeat: no-repeat;
-        border: 1px solid black;
+        border: 2px solid black;
+    }
+    .box1 img{
+        padding-top: 28px;
+        height: 37vh;
     }
     .box1 h2{
+        padding-top: 25px;
         font-size: 2rem;
-        font-weight: 600;
-        padding-top: 410px;
+        font-weight: 500;
     }
     .box1 p{
         font-size: 1.2rem;
-        padding-top: 15px;
+        padding: 15px 5px 0 5px;
     }
     .bg2 .box2{
         height: 60vh;
         width: 25vw;
         text-align: center;
-        background-image: url("box2.png");
-        background-size: 98%;
-        background-position: 50% -20%;
-        background-repeat: no-repeat;
-        border: 1px solid black;
+        border: 2px solid black;
+    }
+    .box2 img{
+        height: 43vh;
+
     }
     .box2 h2{
         font-size: 2rem;
-        font-weight: 600;
-        padding-top: 410px;
+        font-weight: 500;
     }
     .box2 p{
         font-size: 1.2rem;
-        padding-top: 15px;
+        padding: 15px 5px 0 5px;
     }
     .bg2 .box3{
         height: 60vh;
         width: 25vw;
         text-align: center;
-        background-image: url("box3.png");
-        background-size: 95%;
-        background-position: 50% -20%;
-        background-repeat: no-repeat;
-        border: 1px solid black;
+        border: 2px solid black;
+    }
+    .box3 img{
+        height: 43vh;
     }
     .box3 h2{
         font-size: 2rem;
-        font-weight: 600;
-        padding-top: 410px;
+        font-weight: 500;
     }
     .box3 p{
         font-size: 1.2rem;
-        padding-top: 15px;
+        padding: 15px 5px 0 5px;
     }   
+
+    .bg3{
+        height: auto;
+        min-height: 120vh;
+        width: 100%;
+        text-align: center;
+        background-image: url("bg3\ \(Edited\).png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg3 h2{
+        padding-top: 120px;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .bg3 p{
+        font-size: 1.5rem;
+    }
+    .fa{
+        font-size: 25px;
+    }
+    .checked{
+        padding-top: 20px;
+        color: orange ;
+    }
 
     /* Moblile 640px */
     @media (max-width: 640px) {
