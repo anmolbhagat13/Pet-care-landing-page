@@ -148,12 +148,12 @@
         width: 100px;
     }
 
-    .p1 .petfood {
+    .petfood {
         height: 100px;
         width: 100px;
     }
 
-    .bg2{
+    .bg2 {
         height: auto;
         min-height: 70vh;
         padding-top: 20vh;
@@ -161,65 +161,77 @@
         justify-content: center;
         gap: 30px;
     }
-    .bg2 .box1{
+
+    .box1 {
         height: 60vh;
         width: 25vw;
         text-align: center;
         border: 2px solid black;
         border-radius: 5%;
     }
-    .box1 img{
+
+    .box1 img {
         padding-top: 28px;
         height: 37vh;
     }
-    .box1 h2{
+
+    .box1 h2 {
         padding-top: 25px;
         font-size: 2rem;
         font-weight: 500;
     }
-    .box1 p{
+
+    .box1 p {
         font-size: 1.2rem;
         padding: 15px 5px 0 5px;
     }
-    .bg2 .box2{
+
+    .box2 {
         height: 60vh;
         width: 25vw;
         text-align: center;
         border: 2px solid black;
         border-radius: 5%;
     }
-    .box2 img{
+
+    .box2 img {
         height: 43vh;
 
     }
-    .box2 h2{
+
+    .box2 h2 {
         font-size: 2rem;
         font-weight: 500;
     }
-    .box2 p{
+
+    .box2 p {
         font-size: 1.2rem;
         padding: 15px 5px 0 5px;
     }
-    .bg2 .box3{
+
+    .box3 {
         height: 60vh;
         width: 25vw;
         text-align: center;
         border: 2px solid black;
         border-radius: 5%;
     }
-    .box3 img{
+
+    .box3 img {
         height: 43vh;
     }
-    .box3 h2{
+
+    .box3 h2 {
         font-size: 2rem;
         font-weight: 500;
     }
-    .box3 p{
+
+    .box3 p {
         font-size: 1.2rem;
         padding: 15px 5px 0 5px;
-    }   
+    }
 
-    .bg3{
+    .bg3 {
         height: auto;
         min-height: 100vh;
         width: 100%;
@@ -229,106 +241,191 @@
         background-size: cover;
     }
 
-    .bg3 h2{
+    .bg3 h2 {
         padding-top: 120px;
         font-size: 3rem;
         font-weight: 500;
     }
-    .bg3 p{
+
+    .bg3 p {
         font-size: 1.5rem;
     }
-    .fa{
+
+    .fa {
         font-size: 25px;
     }
-    .checked{
+
+    .checked {
         padding-top: 20px;
-        color: orange ;
+        color: orange;
     }
-    .bg4{
+
+    .bg4 {
         height: auto;
         min-height: 135vh;
         text-align: center;
     }
-    .bg4 .services{
+
+    .services {
         font-weight: 700;
     }
-    .bg4 h1{
+
+    .bg4 h1 {
         font-size: 4.5rem;
         font-weight: 400;
     }
-    .bg4-main-p{
+
+    .bg4-main-p {
         padding-bottom: 7vh;
     }
-    .bg4 h2{
+
+    .bg4 h2 {
         font-size: 2.2rem;
         font-weight: 400;
     }
-    .bg4 p{
+
+    .bg4 p {
         font-size: 1.2rem;
         line-height: 25px;
         font-weight: 500;
         padding-top: 15px;
     }
-    .bg4 .boxes{
+
+    .boxes {
         display: flex;
         flex-wrap: wrap;
         gap: 40px;
         justify-content: center;
     }
-    .bg4 .box1{
+
+    .bg4-box1 {
         height: 40vh;
         width: 25vw;
         border: 2px solid black;
         border-radius: 5%;
     }
-    .bg4 .box1 img{
-        height: 20.5vh;
-    }
-    .bg4 .box2{
-        height: 40vh;
-        width: 25vw;
-        border: 2px solid black;
-        border-radius: 5%;
-    }
-    .bg4 .box2 img{
-        height: 26vh;
-    }
-    .bg4 .box3{
-        height: 40vh;
-        width: 25vw;
-        border: 2px solid black;
-        border-radius: 5%;
-    }
-    .bg4 .box3 img{
-        height: 26vh;
-    }
-    .bg4 .box4{
-        height: 40vh;
-        width: 25vw;
-        border: 2px solid black;
-        border-radius: 5%;
-    }
-    .bg4 .box4 img{
-        height: 26vh;
-    }
-    .bg4 .box5{
-        height: 40vh;
-        width: 25vw;
-        border: 2px solid black;
-        border-radius: 5%;
-    }
-    .bg4 .box5 img{
+
+    .bg4-box1 img {
         height: 26vh;
     }
 
-    .bg4 .box6{
+    .bg4-box2 {
         height: 40vh;
         width: 25vw;
         border: 2px solid black;
         border-radius: 5%;
     }
-    .bg4 .box6 img{
+
+    .bg4-box2 img {
         height: 26vh;
+    }
+
+    .bg4-box3 {
+        height: 40vh;
+        width: 25vw;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+
+    .bg4-box3 img {
+        height: 26vh;
+    }
+
+    .bg4-box4 {
+        height: 40vh;
+        width: 25vw;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+
+    .bg4-box4 img {
+        height: 26vh;
+    }
+
+    .bg4-box5 {
+        height: 40vh;
+        width: 25vw;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+
+    .bg4-box5 img {
+        height: 26vh;
+    }
+
+    .bg4-box6 {
+        height: 40vh;
+        width: 25vw;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+
+    .bg4-box6 img {
+        height: 26vh;
+    }
+
+    .bg5 {
+        height: auto;
+        min-height: 90vh;
+    }
+
+    .bg5-boxes {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .bg5-box1 img {
+        padding-left: 10vw;
+        height: 95vh;
+    }
+
+    .bg5-box2 {
+        padding: 0 5vw;
+    }
+
+    .bg5-box2-p1 {
+        padding-top: 15vh;
+        font-weight: 600;
+    }
+
+    .bg5-box2 h1 {
+        font-size: 4rem;
+        font-weight: 500;
+        padding-bottom: 3vh;
+    }
+
+    .bg5-box2-btns {
+        padding-top: 5vh;
+        display: flex;
+        gap: 20px;
+    }
+
+    .bg5-box2-btn1 {
+        height: 50px;
+        width: 150px;
+        font-size: 1rem;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .bg5-box2-btn2 {
+        height: 50px;
+        width: 300px;
+        font-size: 1rem;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+
+    .bg5-box2-btn1:hover {
+        background-color: black;
+        color: white;
+        transition: 1s;
+    }
+
+    .bg5-box2-btn2:hover {
+        background-color: black;
+        color: white;
+        transition: 1s;
     }
 
     /* Moblile 640px */
