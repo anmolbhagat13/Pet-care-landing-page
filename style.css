@@ -50,7 +50,7 @@
     }
 
     .left-nav button:hover {
-        color: orange;
+        color: darkblue;
     }
 
 
@@ -74,7 +74,7 @@
     }
 
     .right-nav button:hover {
-        transition: 1s;
+        transition: 0.5s;
         color: white;
         background-color: black;
     }
@@ -89,6 +89,7 @@
 
     .bg1 p {
         line-height: 50px;
+        font-weight: 500;
         font-size: 1.2rem;
     }
 
@@ -109,7 +110,6 @@
     }
 
     .main-img button {
-        background: transparent;
         border: 1px solid black;
         border-radius: 30px;
         font-weight: 600;
@@ -119,7 +119,7 @@
     }
 
     .main-img button:hover {
-        transition: 1s;
+        transition: 0.5s;
         color: white;
         background-color: black;
     }
@@ -206,6 +206,7 @@
 
     .box2 p {
         font-size: 1.2rem;
+        font-weight: 500;
         padding: 15px 5px 0 5px;
     }
 
@@ -249,6 +250,7 @@
 
     .bg3 p {
         font-size: 1.5rem;
+        font-weight: 500;
     }
 
     .fa {
@@ -393,6 +395,10 @@
         font-weight: 500;
         padding-bottom: 3vh;
     }
+    .bg5-box2-p2{
+        line-height: 1.4;
+        font-weight: 500;
+    }
 
     .bg5-box2-btns {
         padding-top: 5vh;
@@ -404,6 +410,7 @@
         height: 50px;
         width: 150px;
         font-size: 1rem;
+        font-weight: 500;
         border: 1px solid black;
         border-radius: 30px;
     }
@@ -412,6 +419,7 @@
         height: 50px;
         width: 300px;
         font-size: 1rem;
+        font-weight: 500;
         border: 1px solid black;
         border-radius: 30px;
     }
@@ -419,13 +427,13 @@
     .bg5-box2-btn1:hover {
         background-color: black;
         color: white;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .bg5-box2-btn2:hover {
         background-color: black;
         color: white;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     /* Moblile 640px */
