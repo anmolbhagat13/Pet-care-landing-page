@@ -436,6 +436,41 @@
         transition: 0.5s;
     }
 
+    .bg6{
+        height: auto;
+        min-height: 100vh;
+        background-image: url("bg6-img.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg6-p1{
+        padding: 50px 0 0 80px;
+        font-weight: 600;
+    }
+    .bg6 h1{
+        padding: 10px 0 0 80px;
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .bg6II{
+        line-height: 1.4;
+        font-weight: 500;
+        padding: 170px 0 0 80px;
+    }
+    .bg6 button{
+        height: 50px;
+        width: 160px;
+        font-weight: 500;
+        font-size: 1rem;
+        border-radius: 25px;
+    }
+
+    .bg6 button:hover{
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+
     /* Moblile 640px */
     @media (max-width: 640px) {
         nav {
