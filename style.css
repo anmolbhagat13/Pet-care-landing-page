@@ -395,7 +395,8 @@
         font-weight: 500;
         padding-bottom: 3vh;
     }
-    .bg5-box2-p2{
+
+    .bg5-box2-p2 {
         line-height: 1.4;
         font-weight: 500;
     }
@@ -436,28 +437,32 @@
         transition: 0.5s;
     }
 
-    .bg6{
+    .bg6 {
         height: auto;
         min-height: 100vh;
         background-image: url("bg6-img.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .bg6-p1{
+
+    .bg6-p1 {
         padding: 50px 0 0 80px;
         font-weight: 600;
     }
-    .bg6 h1{
+
+    .bg6 h1 {
         padding: 10px 0 0 80px;
         font-weight: 600;
         font-size: 4rem;
     }
-    .bg6II{
+
+    .bg6II {
         line-height: 1.4;
         font-weight: 500;
         padding: 170px 0 0 80px;
     }
-    .bg6 button{
+
+    .bg6 button {
         height: 50px;
         width: 160px;
         font-weight: 500;
@@ -465,10 +470,155 @@
         border-radius: 25px;
     }
 
-    .bg6 button:hover{
+    .bg6 button:hover {
         background-color: black;
         color: white;
         transition: 0.5s;
+    }
+
+    .bg7 {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+
+    .bg7 h1 {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .bg7-boxes {
+        padding-top: 50px;
+        display: flex;
+        text-align: start;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .bg7-box1 {
+        height: 60vh;
+        width: 25vw;
+        line-height: 30px;
+
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .bg7-p1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .bg7-img1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160px;
+    }
+
+    .bg7-img1 img {
+        width: 250px;
+    }
+
+    .price {
+        display: flex;
+        line-height: 20px;
+    }
+
+    .bg7-p3 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .box7-btn {
+        padding: 30px 0 20px 0;
+        text-align: center;
+    }
+
+    .box7-btn button {
+        border: 1px solid black;
+        font-weight: 500;
+        font-size: 1rem;
+        width: 430px;
+        height: 35px;
+        border-radius: 20px;
+    }
+
+    .box7-btn button:hover {
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .bg7-p4 {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .bg7-box-1 {
+        height: 22vh;
+        padding: 10px 15px 15px 10px;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 20px;
+    }
+   .bg7-box2 {
+        height: 60vh;
+        width: 25vw;
+        line-height: 30px;
+        border: 1px solid black;
+
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .bg7-img2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+    }
+
+    .bg7-img2 img {
+        width: 250px;
+    }
+
+    .bg7-box-1 {    
+        height: 22vh;
+        padding: 10px 15px 15px 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+   .bg7-box3 {
+        height: 60vh;
+        width: 25vw;
+        line-height: 30px;
+        border: 1px solid black;
+
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .bg7-img3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 130px;
+    }
+
+    .bg7-img3 img {
+        width: 150px;
+    }
+
+    .bg7-box-1 {    
+        height: 22vh;
+        padding: 10px 15px 15px 10px;
+        border: 1px solid black;
+        border-radius: 20px;
     }
 
     /* Moblile 640px */
