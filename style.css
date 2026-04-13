@@ -96,6 +96,7 @@
     .bg1 h1 {
         font-size: 6.5em;
         font-weight: 400;
+        color:#274657;
     }
 
     .main-img {
@@ -128,6 +129,7 @@
         height: auto;
         min-height: 20vh;
         width: 99.9%;
+        color:#274657;
         text-align: center;
         font-size: 4.3rem;
         padding-top: 15vh;
@@ -179,6 +181,7 @@
         padding-top: 25px;
         font-size: 2rem;
         font-weight: 500;
+        color:#274657;
     }
 
     .box1 p {
@@ -202,6 +205,7 @@
     .box2 h2 {
         font-size: 2rem;
         font-weight: 500;
+        color:#274657;
     }
 
     .box2 p {
@@ -225,6 +229,7 @@
     .box3 h2 {
         font-size: 2rem;
         font-weight: 500;
+        color:#274657;
     }
 
     .box3 p {
@@ -246,6 +251,7 @@
         padding-top: 120px;
         font-size: 3rem;
         font-weight: 500;
+        color:#274657;
     }
 
     .bg3 p {
@@ -270,11 +276,13 @@
 
     .services {
         font-weight: 700;
+        color:#274657;
     }
 
     .bg4 h1 {
         font-size: 4.5rem;
         font-weight: 400;
+        color:#274657;
     }
 
     .bg4-main-p {
@@ -298,6 +306,10 @@
         flex-wrap: wrap;
         gap: 40px;
         justify-content: center;
+    }
+    .boxes h2{
+        color:#274657;
+        font-weight: 500;
     }
 
     .bg4-box1 {
@@ -388,12 +400,14 @@
     .bg5-box2-p1 {
         padding-top: 15vh;
         font-weight: 600;
+        color:#274657;
     }
 
     .bg5-box2 h1 {
         font-size: 4rem;
         font-weight: 500;
         padding-bottom: 3vh;
+        color:#274657;
     }
 
     .bg5-box2-p2 {
@@ -448,18 +462,20 @@
     .bg6-p1 {
         padding: 50px 0 0 80px;
         font-weight: 600;
+        color:#274657;
     }
 
     .bg6 h1 {
         padding: 10px 0 0 80px;
         font-weight: 600;
         font-size: 4rem;
+        color:#274657;
     }
 
     .bg6II {
         line-height: 1.4;
         font-weight: 500;
-        padding: 170px 0 0 80px;
+        padding: 190px 0 0 80px;
     }
 
     .bg6 button {
@@ -486,6 +502,7 @@
 
     .bg7 h1 {
         font-size: 4rem;
+        color:#274657;
         font-weight: 500;
     }
 
@@ -510,6 +527,7 @@
     .bg7-p1 {
         font-size: 1.5rem;
         font-weight: 600;
+        color:#274657;
     }
 
     .bg7-img1 {
