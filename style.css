@@ -854,3 +854,356 @@
         display: flex;
         gap: 50px;
     }
+
+    /* For Laptop(1024 px) */
+    @media only screen and (max-width: 1024px) {
+
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        nav {
+            overflow: hidden;
+        }
+
+        .left-nav {
+            padding-left: 15px;
+            gap: 40px;
+        }
+
+        .right-nav {
+            padding-right: 15px;
+        }
+
+        .bg1 p {
+            line-height: 30px;
+            margin: 10px 0;
+        }
+
+        .bg1 h1 {
+            font-size: 4.5rem;
+        }
+
+        .main-img {
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: auto;
+            min-height: 60vh;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0px 0px 0px 30px;
+            margin-top: 40px;
+        }
+
+        .main-img button {
+            font-size: 1rem;
+            height: 5vh;
+            width: 20vw;
+        }
+
+        .p1 {
+            padding: 0px;
+            margin-top: 40px;
+            font-size: 2.5rem;
+        }
+
+        .p1 img {
+            height: 60px;
+            width: 60px;
+        }
+
+        .bg2 {
+            height: auto;
+            min-height: 75vh;
+            padding: 0px;
+            margin-top: 100px;
+            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box1 {
+            height: 65vh;
+            width: 30vw;
+        }
+
+        .box1 img {
+            width: 30vw;
+        }
+
+        .box2 {
+            height: 65vh;
+            width: 30vw;
+        }
+
+        .box2 img {
+            width: 30vw;
+        }
+
+        .box3 {
+            height: 65vh;
+            width: 30vw;
+        }
+
+        .box3 img {
+            width: 30vw;
+        }
+
+        .bg3 {
+            height: auto;
+            min-height: 60vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bg3 h2 {
+            font-size: 3rem;
+            padding: 0px;
+        }
+
+        .bg3 p {
+            font-size: 1.2rem;
+        }
+
+        .bg4 {
+            height: auto;
+            width: 100%;
+            gap: 10px;
+        }
+
+        .bg4 h1 {
+            font-size: 3rem;
+        }
+
+        .boxes {
+            gap: 20px;
+        }
+
+        .boxes h2 {
+            font-size: 1.5rem;
+        }
+
+        .boxes img {
+            height: 25vh;
+        }
+
+        .bg4-box1 {
+            height: auto;
+            width: 30vw;
+            padding: 5px;
+        }
+
+        .bg4-box2 {
+            height: auto;
+            width: 30vw;
+            padding: 5px;
+        }
+
+        .bg4-box3 {
+            height: auto;
+            width: 30vw;
+            padding: 5px;
+        }
+
+        .bg4-box4 {
+            height: auto;
+            width: 30vw;
+            padding: 5px;
+        }
+
+        .bg4-box5 {
+            height: auto;
+            width: 30vw;
+            padding: 5px;
+        }
+
+        .bg4-box6 {
+            height: auto;
+            width: 30vw;
+            padding: 5px;
+        }
+
+        .bg5 img {
+            padding: 0px;
+        }
+
+        .bg5-box2 {
+            padding: 10px;
+            width: 50vw;
+        }
+
+        .bg5-box2-p1 {
+            padding-top: 90px;
+        }
+
+        .bg5-box2 h1 {
+            font-size: 3rem;
+        }
+
+        .bg6 {
+            height: auto;
+            min-height: 70vh;
+            background-size: contain;
+        }
+
+        .bg6-p1 {
+            padding: 0 50px;
+        }
+
+        .bg6 h1 {
+            padding: 0 50px;
+            font-size: 3rem;
+        }
+
+        .bg6II {
+            width: 20vw;
+            padding: 20px 50px;
+        }
+
+        .bg6-btn1 {
+            margin-top: 50px;
+        }
+
+        .bg7 {}
+
+        .bg7-p1 {
+            font-size: 1.2rem;
+        }
+
+        .bg7 h1 {
+            font-size: 3rem;
+        }
+
+        .bg7-boxes {
+            gap: 8px;
+        }
+
+        .bg7-box1 {
+            height: auto;
+            width: 30vw;
+            padding: 20px 10px 10px 10px;
+        }
+
+        .bg7-p2 {
+            line-height: 1.3rem;
+        }
+
+        .bg7-img1 {
+            height: 200px;
+        }
+
+        .bg7-img1 img {
+            width: 150px;
+        }
+
+        .bg7-box-1 {
+            height: auto;
+            min-height: 35vh;
+            line-height: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .box7-btn button {
+            width: 28vw;
+        }
+
+        .bg7-box2 {
+            height: auto;
+            width: 30vw;
+            padding: 20px 10px 10px 10px;
+        }
+
+        .bg7-img2 {
+            height: 200px;
+        }
+
+        .bg7-img2 img {
+            width: 150px;
+        }
+
+        .bg7-box3 {
+            height: auto;
+            width: 30vw;
+            padding: 20px 10px 10px 10px;
+        }
+
+        .bg7-img3 {
+            height: 160px;
+        }
+
+        .bg7-img3 img {
+            width: 150px;
+        }
+
+        .bg8 {
+            height: auto;
+            padding: 50px 20px 0 20px;
+        }
+
+        .bg8-p1 {
+            font-size: 1.2rem;
+        }
+
+        .bg8 h1 {
+            font-size: 3rem;
+        }
+
+        .bg8-box1 {
+            height: auto;
+            gap: 30px;
+            height: 90vh;
+            display: flex;
+        }
+
+        .bg8-box1-left {
+            padding-top: 20px;
+            flex: 4.5;
+        }
+
+        .bg8-box1-left-bottom {
+            height: auto;
+            margin-top: 145px;
+            font-size: 1px;
+            width: auto;
+        }
+
+        .bg8-profile-p p {
+            font-size: 1rem;
+            line-height: normal;
+        }
+
+        .bg8-rating span {
+            font-size: 20px;
+        }
+
+        .bg8-box1-right {
+            flex: 5;
+        }
+
+        .bg8-box1-right-1 {
+            height: auto;
+        }
+
+        .bg8-answer {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            height: auto;
+            width: 100%;
+        }
+
+        .footer img {
+            height: 20vh;
+        }
+
+        .footer-right {
+            margin: 0 20px 0 0;
+        }
+
+    }
