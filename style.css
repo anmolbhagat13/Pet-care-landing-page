@@ -100,12 +100,12 @@
     }
 
     .main-img {
-        height: auto;
-        min-height: 110vh;
         background-image: url("img1\ \(Edited\).png");
-        background-size: cover;
+        background-size: contain;
+        aspect-ratio: 16/9;
+        background-position: center top;
         background-repeat: no-repeat;
-        padding-top: 50px;
+        margin-top: 50px;
         text-align: center;
     }
 
@@ -127,11 +127,11 @@
     .p1 {
         height: auto;
         min-height: 20vh;
-        width: 99.9%;
+        width: 100%;
         color: #274657;
         text-align: center;
         font-size: 4.3rem;
-        padding-top: 15vh;
+        padding-top: 10vh;
         display: flex;
         align-items: center;
     }
@@ -157,7 +157,7 @@
     .bg2 {
         height: auto;
         min-height: 70vh;
-        padding-top: 20vh;
+        padding-top: 10vh;
         display: flex;
         justify-content: center;
         gap: 30px;
@@ -169,11 +169,16 @@
         text-align: center;
         border: 2px solid black;
         border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .box1 img {
-        padding-top: 28px;
+        padding-top: 25px;
         height: 37vh;
+        width: 100%;
     }
 
     .box1 h2 {
@@ -185,6 +190,7 @@
 
     .box1 p {
         font-size: 1.2rem;
+        font-weight: 500;
         padding: 15px 5px 0 5px;
     }
 
@@ -194,10 +200,15 @@
         text-align: center;
         border: 2px solid black;
         border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .box2 img {
         height: 43vh;
+        width: 100%;
 
     }
 
@@ -219,10 +230,15 @@
         text-align: center;
         border: 2px solid black;
         border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .box3 img {
         height: 43vh;
+        width: 100%;
     }
 
     .box3 h2 {
@@ -233,21 +249,21 @@
 
     .box3 p {
         font-size: 1.2rem;
+        font-weight: 500;
         padding: 15px 5px 0 5px;
     }
 
     .bg3 {
-        height: auto;
-        min-height: 100vh;
+        aspect-ratio: 16/9;
         width: 100%;
         text-align: center;
         background-image: url("bg3\ \(Edited\).png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     .bg3 h2 {
-        padding-top: 120px;
+        padding-top: 15vh;
         font-size: 3rem;
         font-weight: 500;
         color: #274657;
@@ -514,7 +530,7 @@
     }
 
     .bg7-box1 {
-        height: 60vh;
+        height: auto;
         width: 25vw;
         line-height: 30px;
         border: 2px solid black;
@@ -536,7 +552,7 @@
     }
 
     .bg7-img1 img {
-        width: 250px;
+        width: 15vw;
     }
 
     .price {
@@ -558,7 +574,7 @@
         border: 1px solid black;
         font-weight: 500;
         font-size: 1rem;
-        width: 430px;
+        width: 25vw;
         height: 35px;
         border-radius: 20px;
     }
@@ -574,16 +590,8 @@
         font-size: 1.2rem;
     }
 
-    .bg7-box-1 {
-        height: 22vh;
-        padding: 10px 15px 15px 10px;
-        border: 1px solid black;
-        background-color: white;
-        border-radius: 20px;
-    }
-
     .bg7-box2 {
-        height: 60vh;
+        height: auto;
         width: 25vw;
         line-height: 30px;
         border: 2px solid black;
@@ -595,22 +603,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 130px;
+        height: 15vh;
+
     }
 
     .bg7-img2 img {
-        width: 250px;
+        width: 15vw;
     }
 
     .bg7-box-1 {
-        height: 22vh;
+        height: auto;
         padding: 10px 15px 15px 10px;
         border: 1px solid black;
         border-radius: 20px;
     }
 
     .bg7-box3 {
-        height: 60vh;
+        height: auto;
         width: 25vw;
         line-height: 30px;
         border: 2px solid black;
@@ -627,13 +636,6 @@
 
     .bg7-img3 img {
         width: 150px;
-    }
-
-    .bg7-box-1 {
-        height: 22vh;
-        padding: 10px 15px 15px 10px;
-        border: 1px solid black;
-        border-radius: 20px;
     }
 
     .bg8 {
@@ -857,14 +859,10 @@
 
     /* For Laptop(1024 px) */
     @media only screen and (max-width: 1024px) {
-
         body {
             height: 100%;
             width: 100%;
-        }
-
-        nav {
-            overflow: hidden;
+            box-sizing: border-box;
         }
 
         .left-nav {
@@ -953,11 +951,10 @@
         }
 
         .bg3 {
-            height: auto;
-            min-height: 60vh;
+            aspect-ratio: 16/9;
             width: 100%;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             background-position: center;
         }
 
@@ -1069,7 +1066,10 @@
             margin-top: 50px;
         }
 
-        .bg7 {}
+        .bg7 {
+            height: auto;
+            width: 100%;
+        }
 
         .bg7-p1 {
             font-size: 1.2rem;
@@ -1082,7 +1082,6 @@
         .bg7-boxes {
             gap: 8px;
         }
-
         .bg7-box1 {
             height: auto;
             width: 30vw;
@@ -1103,7 +1102,6 @@
 
         .bg7-box-1 {
             height: auto;
-            min-height: 35vh;
             line-height: 1.5rem;
             font-size: 1rem;
         }
