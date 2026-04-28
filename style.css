@@ -566,12 +566,12 @@
         font-weight: 500;
     }
 
-    .box7-btn {
+    .bg7-btn {
         padding: 30px 0 20px 0;
         text-align: center;
     }
 
-    .box7-btn button {
+    .bg7-btn button {
         border: 1px solid black;
         font-weight: 500;
         font-size: 1rem;
@@ -580,7 +580,7 @@
         border-radius: 20px;
     }
 
-    .box7-btn button:hover {
+    .bg7-btn button:hover {
         background-color: black;
         color: white;
         transition: 0.5s;
@@ -859,7 +859,7 @@
         gap: 50px;
     }
 
-    /* For Laptop(1024 px) */
+    /* For Laptop(1024px) */
     @media only screen and (max-width: 1024px) {
         body {
             height: 100%;
@@ -1117,7 +1117,7 @@
             font-size: 1rem;
         }
 
-        .box7-btn button {
+        .bg7-btn button {
             width: 28vw;
         }
 
@@ -1217,10 +1217,8 @@
 
     }
 
+    /* For Tablet(768px) */
     @media only screen and (max-width: 768px) {
-        body {
-            border: 1px solid royalblue;
-        }
 
         .right-nav button {
             display: none;
@@ -1379,4 +1377,172 @@
         .footer-bottom-r p{
             font-size: .9rem;
         }
+    }
+    
+    /* For Mobile(430px) */
+    @media only screen and (max-width: 430px){
+        .left-nav button{
+            display: none;
+        }
+        .bg1{
+            padding: 5vh 0 0 0;
+        }
+        .bg1 h1{
+            font-size: 2rem;
+        }
+        .main-img{
+            padding: 0px;
+            background-size: 180%;
+        }
+
+        .p1{
+            font-size:2rem;
+        }
+        .bg2{
+            height: auto;
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box1{
+            width: 90%;
+            height: 60%;
+        }
+        .box1 img{
+            width: 79vw;
+        }
+        .box2{
+            width: 90%;
+            height: 60%;
+        }
+        .box2 img{
+            width: 79vw;
+        }
+        .box3{
+            width: 90%;
+            height: 60%;
+        }
+        .box3 img{
+            width: 79vw;
+        }
+
+        .bg3{
+            height: 50vh;
+            background-position: 0 240px;
+        }
+
+        .bg4-box3 img{
+            width: 40vw;
+        }
+        .bg4-box4 img{
+            width: 40vw;
+        }
+        .bg4-box5 img{
+            width: 40vw;
+        }
+        .bg4-box6 img{
+            width: 40vw;
+        }
+
+        .bg5{
+            height: 140vh;
+            padding: 0 0 10px 0;
+        }
+        .bg5-boxes{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 130vh;
+        }
+        .bg5-box1{
+            padding-top: 10vh;
+            margin: 0px;
+        }
+        .bg5-box1 img{
+            width: 80vw;
+        }   
+        .bg5-box2{
+            width: 95%;
+        }
+
+        .bg6{
+            margin-top: 5vh;
+            background-position: 0 350px;
+        }
+        .bg6-p1{
+            padding: 0 6vw;
+        }
+        .bg6 h1{
+            padding: 0 6vw;
+        }
+        .bg6II{
+            padding: 10px 8vw;
+        }
+        .bg6-btn1{
+            margin-top: 15vh;
+        }
+
+        .bg7{
+            padding: 0px;
+        }
+        .bg7-boxes{
+            flex-direction: column;
+            align-items: center;
+            gap: 2vh;
+        }
+        .bg7-btn button{
+            width: 100%;
+        }
+        .bg7-box1{
+            width: 80%;
+        }
+        .bg7-box2{
+            width: 80%;
+        }
+        .bg7-box3{
+            width: 80%;
+        }
+
+        .bg8 h1{
+            padding: 0vh 0vw 4vh 0vw;
+        }
+        .bg8-box1{
+            flex-direction: column;
+        }
+        .bg8-box1-left-bottom{
+            display: none;
+        }
+
+        .footer-img{
+            height: auto;
+            width: auto;
+        }
+        .footer-img img{
+            width: 100%; 
+        }
+        .footer-lr{
+            flex-direction: column;
+        }
+        .footer-left{
+            height: auto;
+            padding: 5vw;
+            width:90%;
+        }
+        .footer-input{
+            width: 90%;
+        }
+        .footer-input input{
+            width: 100%;
+        }
+        .footer-right{
+            padding: 5vw;
+            margin: 0px;
+        }
+        .footer-bottom{
+            height: auto;
+            gap: 1vh;
+            flex-direction: column;
+        }   
     }
