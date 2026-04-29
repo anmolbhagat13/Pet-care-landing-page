@@ -1381,100 +1381,192 @@
     
     /* For Mobile(430px) */
     @media only screen and (max-width: 430px){
+        nav{
+            height: auto;
+            min-height: 5vh;
+        }
         .left-nav button{
             display: none;
         }
         .bg1{
-            padding: 5vh 0 0 0;
+            padding: 10px 0;
+        }
+        .bg1 p{
+            line-height: normal;
+            font-size: 0.8rem;
         }
         .bg1 h1{
             font-size: 2rem;
         }
         .main-img{
+            min-height: 55vh;
+            margin: 0px;
             padding: 0px;
             background-size: 180%;
         }
-
+        .main-img button{
+            height: 4vh;
+            width: 50vw;
+        }
         .p1{
-            font-size:2rem;
+            font-size: 1.5rem;
+        }
+        .p1 img{
+            height: 50px;
+            width: 50px;
         }
         .bg2{
             height: auto;
             width: 100%;
-            margin: 0px;
+            margin: 50px 0 0 0;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
         .box1{
-            width: 90%;
-            height: 60%;
+            width: 70%;
+            height: 30%;
         }
-        .box1 img{
-            width: 79vw;
+        .bg2 img{
+            width: 50vw;
+            height: 20vh;
+        }
+        .bg2 h2{
+            font-size: 1.5rem;
+        }
+        .bg2 p{
+            font-size: 0.8rem;
         }
         .box2{
-            width: 90%;
-            height: 60%;
-        }
-        .box2 img{
-            width: 79vw;
+            width: 70%;
+            height: 30%;
         }
         .box3{
-            width: 90%;
-            height: 60%;
-        }
-        .box3 img{
-            width: 79vw;
+            width: 70%;
+            height: 30%;
         }
 
         .bg3{
-            height: 50vh;
-            background-position: 0 240px;
+            height: 48vh;
+            background-position: 0 140px;
+            margin-top: 50px;
+        }
+        .bg3 h2{
+            font-size: 1.5rem;
+        }
+        .bg3 p{
+            font-size: 0.8rem;  
+        }
+        .fa{
+            font-size: 1rem;
         }
 
+        .services{
+            padding: 0px;
+        }
+        .bg4 p{
+            font-size: 0.8rem;
+        }
+        .bg4 h1{
+            font-size: 1.5rem;
+        }
+        .bg4 h2{
+            font-size: 1.1rem;
+        }
+        .bg4-main-p{
+            padding: 0 0 30px 0;
+        }
+        .boxes{
+            align-items: center;
+            justify-content:center;
+            gap: 5px;
+        }
+        .boxes p{
+            line-height: 15px;
+        }
+        .bg4-box1{
+            height: 36vh;
+            width: 45vw;
+        }
+        .bg4-box2{
+            height: 36vh;
+            width: 45vw;
+        }
+        .bg4-box3{
+            height: 36vh;
+            width: 45vw;
+        }
+        .bg4-box4{
+            height: 36vh;
+            width: 45vw;
+        }
+        .bg4-box5{
+            height: 36vh;
+            width: 45vw;
+        }
+        .bg4-box6{
+            height: 36vh;
+            width: 45vw;
+        }
+        .bg4-box1 img{
+            height: 20vh;
+            width: 40vw;
+        }
+        .bg4-box2 img{
+            height: 20vh;
+            width: 40vw;
+        }
         .bg4-box3 img{
+            height: 22vh;
             width: 40vw;
         }
         .bg4-box4 img{
+            height: 20vh;
             width: 40vw;
         }
         .bg4-box5 img{
+            height: 20vh;
             width: 40vw;
         }
         .bg4-box6 img{
+            height: 20vh;
             width: 40vw;
         }
 
-        .bg5{
-            height: 140vh;
-            padding: 0 0 10px 0;
+        .bg5 p{
+            font-size: 0.8rem;
+        }
+        .bg5 h1{
+            font-size: 1.5rem;
         }
         .bg5-boxes{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 130vh;
         }
         .bg5-box1{
-            padding-top: 10vh;
             margin: 0px;
         }
         .bg5-box1 img{
-            width: 80vw;
+            width: 60vw;
         }   
         .bg5-box2{
             width: 95%;
         }
 
         .bg6{
-            margin-top: 5vh;
-            background-position: 0 350px;
+            min-height: fit-content;
+            margin-top: 10vh;
+            background-position: 0 150px;
         }
         .bg6-p1{
             padding: 0 6vw;
         }
+        .bg6 p{
+            font-size: 0.8rem;
+        }
         .bg6 h1{
+            font-size: 1.5rem;
             padding: 0 6vw;
         }
         .bg6II{
@@ -1483,30 +1575,75 @@
         .bg6-btn1{
             margin-top: 15vh;
         }
+        .bg6 button{
+            height: 5vh;
+            width: 40vw;
+        }
 
         .bg7{
-            padding: 0px;
+            padding-top: 10vh;
+        }
+        .bg7 h1{
+            font-size: 1.5rem;
+        }
+        .bg7 p{
+            font-size: 0.8rem;
         }
         .bg7-boxes{
             flex-direction: column;
             align-items: center;
-            gap: 2vh;
+            gap: 1vh
+        }
+        .bg7-btn{
+            padding: 10px 0;
         }
         .bg7-btn button{
             width: 100%;
         }
         .bg7-box1{
-            width: 80%;
+            width: 80vw;
+        }
+        .bg7-img1{
+            height: 10vh;
+        }
+        .bg7-img1 img{
+            height: 15vh;
+            width: 40vw;
         }
         .bg7-box2{
             width: 80%;
         }
+        .bg7-img2{
+            height: 10vh;
+        }
+        .bg7-img2 img{
+            height: 15vh;
+            width: 40vw;
+        }
         .bg7-box3{
             width: 80%;
         }
+        .bg7-img3{
+            height: 14vh;
+        }
+        .bg7-img3 img{
+            height: 15vh;
+            width: 30vw;
+        }
 
+        .bg8{
+            padding: 100px 20px 0 20px;
+        }
         .bg8 h1{
-            padding: 0vh 0vw 4vh 0vw;
+            font-size: 1.5rem;
+            padding: 0 0 25px 0;
+        }
+        .bg8-p1{
+            font-size: 0.8rem;
+        }
+        .bg8-box1-left-top p{
+            line-height: 15px;
+            font-size: 1.1rem;
         }
         .bg8-box1{
             flex-direction: column;
@@ -1514,10 +1651,28 @@
         .bg8-box1-left-bottom{
             display: none;
         }
+        .bg8-box1-right p{
+            font-size: 0.8rem;
+        }
 
         .footer-img{
             height: auto;
             width: auto;
+        }
+        .footer-p1{
+            font-size: 1.1rem;
+        }
+        .footer-p2{
+            font-size: 0.8rem;
+        }
+        .footer-input input{
+            font-size: 0.8rem;
+        }
+        .footer-right{
+            font-size: 0.8rem;
+        }
+        .footer-bb p{
+            font-size: 0.8rem;
         }
         .footer-img img{
             width: 100%; 
@@ -1537,9 +1692,12 @@
             width: 100%;
         }
         .footer-right{
-            padding: 5vw;
-            margin: 0px;
+            width: 100%;
+            gap: 0 50px;
+            display: flex;
+            justify-content: space-around;
         }
+
         .footer-bottom{
             height: auto;
             gap: 1vh;
